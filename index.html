@@ -796,22 +796,21 @@
         });
     </script>
     <script>
-        // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-        // Australia.
-        function initMap() {
+     
+     function initMap() {
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 11,
                 center: {
-                    lat: 40.645037,
-                    lng: -73.880224
+                    lat: 13.2813,   // Replace with latitude for Doddaballapura
+                    lng: 77.5436    // Replace with longitude for Doddaballapura
                 },
             });
 
             var image = 'images/maps-and-flags.png';
             var beachMarker = new google.maps.Marker({
                 position: {
-                    lat: 40.645037,
-                    lng: -73.880224
+                    lat: 13.2813,   // Replace with latitude for Doddaballapura
+                    lng: 77.5436    // Replace with longitude for Doddaballapura
                 },
                 map: map,
                 icon: image
